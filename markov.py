@@ -16,6 +16,9 @@ def gen(seeds,weights,low,hi,ordr):
         r_total = np.random.random_sample(1)[0]
         total = 0.0
         end = key[len(key)-1]
+        almostend = key[len(key)-1]
+        if ((end == '.' and almostend != '.') or end == '!' or end == '?'):
+            break
         if(key not in weights):
             break
         for v in weights[key]:
