@@ -1,0 +1,12 @@
+getposts.js - Scrapes Overheard at UChicago. Requires third part Facebook graph api (fb). Simply replace the access key and you're good to go. Note: I included output.txt which includes all the scraped posts
+
+markov.py - creates an m-order markov model to generate random text.
+	Usage: markov.py [text-file] [order] [low] [high] [n]
+		- [text-file] = input txt file (can be any text file)
+		- [order] = order of markov model
+		- [low] = lower bound for words in random strings
+		- [hig] = upper bound for words in random strings
+		- [n] = number of random strings generated
+
+Personally, I think using a 2nd or 3rd markov model creates quality posts. I also attempted to run this on Open Discourse but it wasn't as funny
+
