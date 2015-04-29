@@ -1,7 +1,9 @@
 getposts.js - Scrapes Overheard at UChicago. Requires third party Facebook graph api (https://github.com/Thuzi/facebook-node-sdk). Simply replace the access key and you're good to go. Note: I included output.txt which includes all the scraped posts
 	Usage: nodejs getposts.js
 
-
+duplicates.py - For some strange reason getposts.js has multiple duplicates. To get rid of them:
+	python duplicates.py output.txt
+	
 markov.py - creates an m-order markov model to generate random text.
 	Usage: markov.py [text-file] [order] [low] [high] [n]
 		- [text-file] = input txt file (can be any text file)
