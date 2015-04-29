@@ -1,4 +1,4 @@
-getposts.js - Scrapes Overheard at UChicago. Requires third party Facebook graph api (fb). Simply replace the access key and you're good to go. Note: I included output.txt which includes all the scraped posts
+getposts.js - Scrapes Overheard at UChicago. Requires third party Facebook graph api (https://github.com/Thuzi/facebook-node-sdk). Simply replace the access key and you're good to go. Note: I included output.txt which includes all the scraped posts
 	Usage: nodejs getposts.js
 
 
